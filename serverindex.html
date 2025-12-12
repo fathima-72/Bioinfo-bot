@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BioInfo Bot</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="chat-container">
+
+    <img src="https://cdn-icons-png.flaticon.com/512/4712/4712100.png" class="bot-icon">
+
+    <span class="status-dot"></span>
+
+    <h2>BioInfo Bot</h2>
+
+    <div id="chat-box"></div>
+
+    <div class="input-area">
+        <input type="text" id="userInput" placeholder="Type your message..." onkeydown="if(event.key==='Enter') sendMessage()">
+        <button onclick="sendMessage()">Send</button>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
