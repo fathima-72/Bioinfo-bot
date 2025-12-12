@@ -1,1 +1,1 @@
-# Bioinfo-bot
+# Bioinfo-Chatbot
