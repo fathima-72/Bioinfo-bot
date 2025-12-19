@@ -92,3 +92,9 @@ function typingEffect(text) {
 
     box.scrollTop = box.scrollHeight;
 }
+
+function useSuggestion(text) {
+    const input = document.getElementById("userInput");
+    input.value = text;
+    sendMessage();
+}
